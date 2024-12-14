@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('content')
     <h1>
-       This is a post called {{ $post }}
+        {{ $post->title }}
     </h1>
+    <p1>
+        {{ $post->content }}
+    </p1>
 @endsection
